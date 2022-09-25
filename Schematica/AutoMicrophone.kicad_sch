@@ -1507,7 +1507,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 517b1f63-2167-4d86-b46b-43a324fbb18c)
     (property "Reference" "J1" (id 0) (at 52.07 31.75 0))
-    (property "Value" "XLR3_Ground" (id 1) (at 52.07 34.29 0))
+    (property "Value" "XLR3_Input" (id 1) (at 52.07 34.29 0))
     (property "Footprint" "" (id 2) (at 52.07 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1728,7 +1728,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a53a6484-d462-4da0-be47-bf38a7498d71)
     (property "Reference" "J2" (id 0) (at 123.19 31.75 0))
-    (property "Value" "XLR3_Ground" (id 1) (at 123.19 34.29 0))
+    (property "Value" "XLR3_Output" (id 1) (at 123.19 34.29 0))
     (property "Footprint" "" (id 2) (at 123.19 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1934,10 +1934,10 @@
       (reference "D1") (unit 1) (value "LED") (footprint "")
     )
     (path "/517b1f63-2167-4d86-b46b-43a324fbb18c"
-      (reference "J1") (unit 1) (value "XLR3_Ground") (footprint "")
+      (reference "J1") (unit 1) (value "XLR3_Input") (footprint "")
     )
     (path "/a53a6484-d462-4da0-be47-bf38a7498d71"
-      (reference "J2") (unit 1) (value "XLR3_Ground") (footprint "")
+      (reference "J2") (unit 1) (value "XLR3_Output") (footprint "")
     )
     (path "/02d58fd0-76eb-44ff-af71-e2894734b8ee"
       (reference "J3") (unit 1) (value "Jack-DC") (footprint "")
