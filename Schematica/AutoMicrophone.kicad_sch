@@ -1303,7 +1303,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b7248dea-dd08-47ee-a72c-959f0474a531)
   )
-  (text "Gain of opamp is equal to RV1/R6.\nThis gain must be around 500 in order for 0.01V to be amplified to 5V."
+  (text "Gain of opamp is equal to RV1/R4.\nThis gain must be around 500 in order for 0.01V to be amplified to 5V."
     (at 105.41 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0d48fb8-df60-40b3-aa67-901317f939bd)
